@@ -9,7 +9,7 @@ import datetime
 
 # Create your views here.
 
-def datetime(request):
+def current_datetime(request):
     now = datetime.datetime.now()
     t = get_template('datetime.html')
     html = t.render(Context({'current_date':now}))

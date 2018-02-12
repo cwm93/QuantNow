@@ -9,5 +9,5 @@ import box_office.views
 app_name = 'box_office'
 
 urlpatterns = [
-    url(r'^box_office/',box_office.datetime),
+    url(r'^box_office/',box_office.current_datetime),
 ]
