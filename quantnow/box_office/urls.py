@@ -8,5 +8,5 @@ from django.conf.urls import url
 app_name = 'box_office'
 
 urlpatterns = [
-    usrl(r'^box_office/',datetime),
+    url(r'^box_office/',datetime),
 ]
