@@ -4,6 +4,7 @@
 """
 
 from django.conf.urls import url
+import box_office.views
 
 app_name = 'box_office'
 
