@@ -20,5 +20,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^box_office/', include('box_office.urls'))
+    url(r'^box_office/', include('box_office.urls')),
 ]
