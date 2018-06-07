@@ -26,7 +26,7 @@ SECRET_KEY = '90s%+r0gdzsz@51f=^%)l3a!ebl=555m8l^8_2q1i7is6f^x*h'
 DEBUG = True
 
 ALLOWED_HOSTS = ['23.239.3.10',
-    'localhost',
+    '127.0.0.1',
 ]
 
 
@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'box_office',
+    'apps.box_office',
+    'compressor'
 ]
 
 MIDDLEWARE = [
@@ -121,3 +122,25 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = 'static'
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    # other
+    'compressor.finders.CompressorFinder',
+)
+COMPRESS_ENABLED = True
+# COMPRESS_OFFLINE = True
+
+
+COMPRESS_CSS_FILTERS = [
+    # creates absolute urls from relative ones
+    'compressor.filters.css_default.CssAbsoluteFilter',
+    # css minimizer
+    'compressor.filters.cssmin.CSSMinFilter'
+]
+COMPRESS_JS_FILTERS = [
+    'compressor.filters.jsmin.JSMinFilter'
+]
