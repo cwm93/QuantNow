@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.box_office',
-    #'compressor'
+    'compressor'
 ]
 
 MIDDLEWARE = [
@@ -127,7 +127,7 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     # other
-    #'compressor.finders.CompressorFinder',
+    'compressor.finders.CompressorFinder',
 )
 #COMPRESS_ENABLED = True
 # COMPRESS_OFFLINE = True
@@ -135,10 +135,10 @@ STATICFILES_FINDERS = (
 
 COMPRESS_CSS_FILTERS = [
     # creates absolute urls from relative ones
-    #'compressor.filters.css_default.CssAbsoluteFilter',
+    'compressor.filters.css_default.CssAbsoluteFilter',
     # css minimizer
-    #'compressor.filters.cssmin.CSSMinFilter'
+    'compressor.filters.cssmin.CSSMinFilter'
 ]
 COMPRESS_JS_FILTERS = [
-    #'compressor.filters.jsmin.JSMinFilter'
+    'compressor.filters.jsmin.JSMinFilter'
 ]
