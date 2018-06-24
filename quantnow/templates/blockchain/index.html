@@ -1,0 +1,920 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+<link href="css/owl.theme.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+<link href="css/imagehover.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/percircle.css">
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<!-- menu -->
+<link rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="js/main.js"></script>
+<!-- //menu -->
+<script src="js/owl.carousel.js"></script>  
+<script>
+$(document).ready(function() { 
+	$("#owl-demo").owlCarousel({
+ 
+		autoPlay: 3000, //Set AutoPlay to 3 seconds
+		autoPlay:true,
+		items : 4,
+		itemsDesktop : [640,5],
+		itemsDesktopSmall : [414,4]
+ 
+	});
+	
+}); 
+</script>
+<script src="js/jarallax.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner" id="home">
+		<!-- menu -->
+			<div id="toggle_m_nav">
+			  <div id="m_nav_menu" class="m_nav">
+				<div class="m_nav_ham" id="m_ham_1"></div>
+				<div class="m_nav_ham" id="m_ham_2"></div>
+				<div class="m_nav_ham" id="m_ham_3"></div>
+			  </div>
+			</div>
+
+			<div id="m_nav_container" class="m_nav">
+			  <ul id="m_nav_list" class="m_nav">
+				<li class="m_nav_item" id="m_nav_item_1"> <a href="#home">Home</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">About</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_3"> <a href="#services">Services</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_4"> <a href="#team">Team</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_5"> <a href="#skills">Skills</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_6"> <a href="#portfolio">Portfolio</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_7"> <a href="#contact">Contact</a> </li>
+			  </ul>
+			</div>
+		<!-- menu -->
+		<div class="container">
+			<div class="agile-logo">
+				<h1><a href="index.html">Wind<span>energy</span></a></h1>
+			</div>
+			<div class="w3l-banner-grids">
+				<div class="slider">
+					<div class="callbacks_container">
+						<ul class="rslides" id="slider4">
+							<li>
+								<div class="w3ls-text">
+									<h3>Cras ultrices lorem a hendrerit condimentum</h3>
+									<p>Cras ultrices lorem a hendrerit condimentum. Sed at eros odio. Nulla justo arcu, rutrum a suscipit ut, fermentum ac massa. Donec sollicitudin facilisis lorem vitae luctus.</p>
+									<a href="#">More</a>
+								</div>
+							</li>
+							<li>
+								<div class="w3ls-text">
+									<h3>Donec tristique velit in ligula bibendum</h3>
+									<p>Proin convallis leo vitae ligula porttitor pulvinar sit amet at elit. Duis ligula enim, consequat non ante ut, lacinia consectetur sapien. Maecenas vitae euismod metus</p>
+									<a href="#">More</a>
+								</div>
+							</li>
+							<li>
+								<div class="w3ls-text">
+									<h3>Quisque blandit orci vitae tellus molestie</h3>
+									<p>Vivamus ut erat sit amet elit mollis aliquam. Cras eu mollis enim, id porta libero. Proin aliquam porttitor augue a fermentum. Sed id justo bibendum, facilisis massa vel.</p>
+									<a href="#">More</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<script src="js/responsiveslides.min.js"></script>
+					<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider4").responsiveSlides({
+							auto: true,
+							pager:true,
+							nav:false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+					 </script>
+					<!--banner Slider starts Here-->
+				</div>
+				<div class="agileinfo-social-grids">
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						<li><a href="#"><i class="fa fa-vk"></i></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- services -->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="col-md-4 services-left">
+				<div class="services-left-info">
+					<h2>Our Services</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus enim ac scelerisque ornare. Fusce laoreet, ipsum nec ultrices fermentum, arcu lacus ullamcorper quam, quis ultricies ligula neque sit amet nisi. Integer pharetra lectus justo, at tempor nibh maximus non. In iaculis at odio id pharetra.</p>
+				</div>
+			</div>
+			<div class="col-md-8 services-right">
+				<div class="services-right-grids">
+					<div class="agile-services-grid">
+						<div class="w3l-services-grids">
+							<div class="service-grid-bg">
+								<div class="service-grid-text">
+									<i class="fa fa-asterisk" aria-hidden="true"></i>
+									<h5>Aenean</h5>
+								</div>
+							</div>
+							<div class="service-grid-bg">
+								<div class="service-grid-text">
+									<i class="fa fa-gavel" aria-hidden="true"></i>
+									<h5>Aenean</h5>
+								</div>
+							</div>
+							<div class="service-grid-bg">
+								<div class="service-grid-text">
+									<i class="fa fa-recycle" aria-hidden="true"></i>
+									<h5>Aenean</h5>
+								</div>
+							</div>
+						</div>
+						<div class="w3l-services-grids w3l-services-grids1">
+							<div class="service-grid-bg">
+								<div class="service-grid-text">
+									<i class="fa fa-magnet" aria-hidden="true"></i>
+									<h5>Aenean</h5>
+								</div>
+							</div>
+							<div class="service-grid-bg">
+								<div class="service-grid-text">
+									<i class="fa fa-map" aria-hidden="true"></i>
+									<h5>Aenean</h5>
+								</div>
+							</div>
+							<div class="service-grid-bg">
+								<div class="service-grid-text">
+									<i class="fa fa-money" aria-hidden="true"></i>
+									<h5>Aenean</h5>
+								</div>
+							</div>
+						</div>
+						<div class="w3l-services-grids w3l-services-grids2">
+							<div class="service-grid-bg">
+								<div class="service-grid-text">
+									<i class="fa fa-object-ungroup" aria-hidden="true"></i>
+									<h5>Aenean</h5>
+								</div>
+							</div>
+							<div class="service-grid-bg">
+								<div class="service-grid-text">
+									<i class="fa fa-life-ring" aria-hidden="true"></i>
+									<h5>Aenean</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //services -->
+	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+	<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="wthree-about-info">
+				<h3>About Us</h3>
+				<p>Cras eleifend hendrerit libero, quis consequat justo congue aliquam.</p>
+			</div>
+			<div class="agileits-about-grids">
+				<div class="agileits-about-top-grids">
+					<div class="col-md-3 about-grid">
+						<div class="about-grid-info">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+							<h4>Mauris lorem sapien</h4>
+							<p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+							<div class="agileits-caption"> 
+								<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+								<h4>Mauris lorem sapien</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 about-grid">
+						<div class="about-grid-info">
+							<i class="fa fa-university" aria-hidden="true"></i>
+							<h4>Phasellus magna</h4>
+							<p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+							<div class="agileits-caption"> 
+								<i class="fa fa-university" aria-hidden="true"></i>
+								<h4>Phasellus magna</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 about-grid">
+						<div class="about-grid-info">
+							<i class="fa fa-suitcase" aria-hidden="true"></i>
+							<h4>Vivamus venenatis</h4>
+							<p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+							<div class="agileits-caption"> 
+								<i class="fa fa-suitcase" aria-hidden="true"></i>
+								<h4>Vivamus venenatis</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 about-grid">
+						<div class="about-grid-info">
+							<i class="fa fa-road" aria-hidden="true"></i>
+							<h4>Aenean sed dolor</h4>
+							<p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+							<div class="agileits-caption"> 
+								<i class="fa fa-road" aria-hidden="true"></i>
+								<h4>Aenean sed dolor</h4>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="agileits-about-top-grids">
+					<div class="col-md-3 about-grid">
+						<div class="about-grid-info">
+							<i class="fa fa-heart" aria-hidden="true"></i>
+							<h4>Mauris lorem sapien</h4>
+							<p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+							<div class="agileits-caption"> 
+								<i class="fa fa-heart" aria-hidden="true"></i>
+								<h4>Mauris lorem sapien</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 about-grid">
+						<div class="about-grid-info">
+							<i class="fa fa-gift" aria-hidden="true"></i>
+							<h4>Phasellus magna</h4>
+							<p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+							<div class="agileits-caption"> 
+								<i class="fa fa-gift" aria-hidden="true"></i>
+								<h4>Phasellus magna</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 about-grid">
+						<div class="about-grid-info">
+							<i class="fa fa-anchor" aria-hidden="true"></i>
+							<h4>Vivamus venenatis</h4>
+							<p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+							<div class="agileits-caption"> 
+								<i class="fa fa-anchor" aria-hidden="true"></i>
+								<h4>Vivamus venenatis</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 about-grid">
+						<div class="about-grid-info">
+							<i class="fa fa-archive" aria-hidden="true"></i>
+							<h4>Aenean sed dolor</h4>
+							<p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+							<div class="agileits-caption"> 
+								<i class="fa fa-archive" aria-hidden="true"></i>
+								<h4>Aenean sed dolor</h4>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- portfolio -->
+	<div class="portfolio" id="portfolio">
+		<div class="wthree-about-info">
+			<h3>Our Works</h3>
+			<p>Cras eleifend hendrerit libero, quis consequat justo congue aliquam.</p>
+		</div>
+		<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">All</a></li>
+						<li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">Learning</a></li>
+						<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">Playing</a></li>
+						<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">Painting</a></li>
+						<li role="presentation"><a href="#school" role="tab" id="school-tab" data-toggle="tab" aria-controls="school">School</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p1.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive" />
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p2.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive" />
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p3.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive" />
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p4.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive" />
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p5.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive" />
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p6.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive" />
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p7.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive" />
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p8.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive" />
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p1.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive">
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p2.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive">
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p3.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive">
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p4.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive">
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p5.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive">
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p6.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive">
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p7.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive">
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p8.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive">
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="school" aria-labelledby="school-tab">
+							<div class="w3_tab_img">
+								<div class="col-md-3 w3_tab_img_left">
+									<div class="demo">
+										<a class="cm-overlay" href="images/p9.jpg">
+										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p9.jpg" alt=" " class="img-responsive">
+											<figcaption>
+											  <h3>Wind Energy</h3>
+											  <p>Phasellus elementum ullamcorper urna, 
+												eu rhoncus lacus rutrum non.</p>
+											</figcaption>
+										  </figure>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+		</div>
+			<script src="js/jquery.tools.min.js"></script>
+			<script src="js/jquery.mobile.custom.min.js"></script>
+			<script src="js/jquery.cm-overlay.js"></script>
+			<script>
+				$(document).ready(function(){
+					$('.cm-overlay').cmOverlay();
+				});
+			</script>
+
+	</div>
+	<!-- //portfolio -->
+	<!-- team -->
+	<div class="team" id="team">
+		<div class="container">
+			<div class="wthree-about-info">
+				<h3>Our Team</h3>
+				<p>Cras eleifend hendrerit libero, quis consequat justo congue aliquam.</p>
+			</div>
+			<div class="team-grids">
+				<div id="owl-demo" class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="team-info">
+							<img src="images/t1.jpg" alt="" />
+							<div class="team-caption"> 
+								<h4>Justo congue</h4>
+								<p>Fusce laoreet</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="team-info">
+							<img src="images/t3.jpg" alt="" />
+							<div class="team-caption"> 
+								<h4>Nulla facilisi</h4>
+								<p>Lorem ipsum</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="team-info">
+							<img src="images/t2.jpg" alt="" />
+							<div class="team-caption"> 
+								<h4>Aenean sed</h4>
+								<p>Nunc tincidunt</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="team-info">
+							<img src="images/t4.jpg" alt="" />
+							<div class="team-caption"> 
+								<h4>Justo congue</h4>
+								<p>Phasellus magna</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="team-info">
+							<img src="images/t1.jpg" alt="" />
+							<div class="team-caption"> 
+								<h4>Justo congue</h4>
+								<p>Fusce laoreet</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="team-info">
+							<img src="images/t3.jpg" alt="" />
+							<div class="team-caption"> 
+								<h4>Nulla facilisi</h4>
+								<p>Lorem ipsum</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="team-info">
+							<img src="images/t2.jpg" alt="" />
+							<div class="team-caption"> 
+								<h4>Aenean sed</h4>
+								<p>Nunc tincidunt</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="team-info">
+							<img src="images/t4.jpg" alt="" />
+							<div class="team-caption"> 
+								<h4>Justo congue</h4>
+								<p>Phasellus magna</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- skills -->
+	<div class="jarallax skills" id="skills">
+		<div class="container">
+			<div class="wthree-about-info skills-about-info">
+				<h3>Our Skills</h3>
+				<p>Cras eleifend hendrerit libero, quis consequat justo congue aliquam.</p>
+			</div>
+			<div class="products-w3ls-row">
+				<div class="dark-area">
+					<!-- some colors -->
+					<div class="w3ls-skills-grids">
+						<div id="lightcircle" class="c100 p60 dark">
+							<span>77%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div> 
+						<div class="w3ls-skills-info">
+							<h4>Lorem ipsum</h4>
+							<p>Nam eget egestas erat. In hac habitasse platea dictumst. Duis in augue sagittis, malesuada justo vel, faucibus sapien.</p>
+						</div>
+					</div>
+					<div class="w3ls-skills-grids">
+						<div id="dgreencircle" class="c100 p60 dark blue">
+							<span>60%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div> 
+						<div class="w3ls-skills-info">
+							<h4>Lorem ipsum</h4>
+							<p>Nam eget egestas erat. In hac habitasse platea dictumst. Duis in augue sagittis, malesuada justo vel, faucibus sapien.</p>
+						</div>
+					</div>
+					<div class="w3ls-skills-grids">
+						<div id="sacircle" class="c100 p60 dark pink">
+							<span>83%</span>
+							<div class="slice">
+								<div class="bar"></div>
+								<div class="fill"></div>
+							</div>
+						</div>
+						<div class="w3ls-skills-info">
+							<h4>Lorem ipsum</h4>
+							<p>Nam eget egestas erat. In hac habitasse platea dictumst. Duis in augue sagittis, malesuada justo vel, faucibus sapien.</p>
+						</div>
+					</div>
+                    <div class="w3ls-skills-grids">
+						<div id="sacircle1" class="c100 p60 dark green">
+                        <span>83%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+						<div class="w3ls-skills-info">
+							<h4>Lorem ipsum</h4>
+							<p>Nam eget egestas erat. In hac habitasse platea dictumst. Duis in augue sagittis, malesuada justo vel, faucibus sapien.</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+					<!-- /some colors --> 
+				</div><!-- /.dark-area -->
+				<script type="text/javascript" src="js/percircle.js"></script> 
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+        /* init Jarallax */
+        $('.jarallax').jarallax({
+            speed: 0.5,
+            imgWidth: 1366,
+            imgHeight: 768
+        })
+    </script>
+	<!-- //kills -->
+	<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="wthree-about-info">
+				<h3>Contact Us</h3>
+				<p>Cras eleifend hendrerit libero, quis consequat justo congue aliquam.</p>
+			</div>
+			<div class="agile-contact-grids">
+				<div class="col-md-6 agile-contact-left">
+					<div class="address-grid">
+						<h4>Our Address</h4>
+						<ul class="w3_address">
+							<li><i class="fa fa-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
+							<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
+							<li><i class="fa fa-mobile" aria-hidden="true"></i>+1234 567 567</li>
+						</ul>
+					</div>
+					<div class="contact-form">
+						<h4>Contact Form</h4>
+						<form action="#" method="post">
+							<div class="styled-input agile-styled-input-top">
+								<input type="text" name="Name" required="">
+								<label>Name</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="Email" required=""> 
+								<label>Email</label>
+								<span></span>
+							</div> 
+							<div class="styled-input">
+								<input type="text" name="Subject" required="">
+								<label>Subject</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<textarea name="Message" required></textarea>
+								<label>Message</label>
+								<span></span>
+							</div>	 
+							<input type="submit" value="SEND">
+						</form>
+					</div>
+				</div>
+				<div class="col-md-6 agile-contact-right">
+					<div class="agileits-map">
+						<h4>Our Location</h4>
+					</div>
+					<div class="map-grid">
+						<!---<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.8400948023!2d-74.25819082602831!3d40.70583163923578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1470295981376" allowfullscreen></iframe>--->
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="footer-grids">
+					<div class="col-md-3 footer-grid">
+						<div class="footer-logo">
+							<h3><a href="index.html">Wind<span>energy</span></a></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget egestas erat. In hac habitasse platea dictumst.</p>
+						</div>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h3>Navigation</h3>
+						<ul>
+							<li> <a href="#about" class="scroll">About</a> </li>
+							<li> <a href="#services" class="scroll">Services</a> </li>
+							<li> <a href="#team" class="scroll">Team</a> </li>
+							<li> <a href="#skills" class="scroll">Skills</a> </li>
+							<li> <a href="#portfolio" class="scroll">Portfolio</a> </li>
+							<li> <a href="#contact" class="scroll">Contact</a> </li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-list">
+						<h3>Latest Posts</h3>
+						<ul>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Vestibulum ante ipsum</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Phasellus at eros</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Mauris eleifend aliquet</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Aliquam vitae tristique</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Pellentesque lobortis</li>
+							<li><i class="fa fa-arrow-right" aria-hidden="true"></i> Class aptent taciti</li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h3>Subscribe</h3>
+						<p>Nam eget egestas erat. In hac habitasse platea dictumst.</p>
+						<form action="#" method="post">
+							<input type="email" name="Email" placeholder="Email" required="">
+							<input type="submit" value="Subscribe">
+						</form>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<p>Copyright &copy; 2016.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+</body>	
+</html>
