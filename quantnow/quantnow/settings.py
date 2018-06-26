@@ -39,8 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.box_office',
-    'compressor'
+    'apps.boxoffice',
+    'apps.blockchain',
+    'compressor',
 ]
 
 MIDDLEWARE = [
