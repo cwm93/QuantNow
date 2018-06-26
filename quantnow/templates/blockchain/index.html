@@ -26,13 +26,13 @@
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
 <!-- menu -->
 <link rel="stylesheet" href="{% static 'css/main.css' %}">
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="{% static 'js/main.js' %}"></script>
 <!-- //menu -->
-<script src="js/owl.carousel.js"></script>  
+<script src="{% static 'js/owl.carousel.js' %}"></script>
 <script>
 $(document).ready(function() { 
 	$("#owl-demo").owlCarousel({
@@ -47,8 +47,8 @@ $(document).ready(function() {
 	
 }); 
 </script>
-<script src="js/jarallax.js"></script>
-<script src="js/SmoothScroll.min.js"></script>
+<script src="{% static 'js/jarallax.js' %}"></script>
+<script src="{% static 'js/SmoothScroll.min.js' %}"></script>
 </head>
 <body>
 	<!-- banner -->
@@ -105,7 +105,7 @@ $(document).ready(function() {
 							</li>
 						</ul>
 					</div>
-					<script src="js/responsiveslides.min.js"></script>
+					<script src="{% static 'js/responsiveslides.min.js' %}"></script>
 					<script>
 						// You can also use "$(window).load(function() {"
 						$(function () {
@@ -584,9 +584,9 @@ $(document).ready(function() {
 						</div>
 					</div>
 		</div>
-			<script src="js/jquery.tools.min.js"></script>
-			<script src="js/jquery.mobile.custom.min.js"></script>
-			<script src="js/jquery.cm-overlay.js"></script>
+			<script src="{% static 'js/jquery.tools.min.js' %}"></script>
+			<script src="{% static 'js/jquery.mobile.custom.min.js' %}"></script>
+			<script src="{% static 'js/jquery.cm-overlay.js' %}"></script>
 			<script>
 				$(document).ready(function(){
 					$('.cm-overlay').cmOverlay();
@@ -786,7 +786,7 @@ $(document).ready(function() {
 					<div class="clearfix"> </div>
 					<!-- /some colors --> 
 				</div><!-- /.dark-area -->
-				<script type="text/javascript" src="js/percircle.js"></script> 
+				<script type="text/javascript" src="{% static 'js/percircle.js' %}"></script>
 			</div>
 		</div>
 	</div>
