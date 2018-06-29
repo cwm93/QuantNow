@@ -4,10 +4,10 @@
 """
 
 from django.conf.urls import url
-import apps.box_office.views
+from apps.box_office import views
 
 app_name = 'box_office'
 
 urlpatterns = [
-    url(r'^$',apps.box_office.views.current_datetime),
+    url(r'^$',views.current_datetime),
 ]

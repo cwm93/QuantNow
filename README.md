@@ -6,4 +6,7 @@ This is a website about quant
 
 ### 2018-02-12
 
-### 2018-06-07
+### 2018-06-06
+Add compressor:pip install django_compressor
+
+create requirments.txt
